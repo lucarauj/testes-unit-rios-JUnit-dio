@@ -12,18 +12,18 @@ public class AssertionsTest {
 		int[] primeiroLancamento = {10, 20, 30, 40, 50};
 		int[] segundoLancamento = {10, 5, 2, 3, 10};
 		
-//		Assertions.assertArrayEquals(primeiroLancamento, segundoLancamento); //verifica se os Arrays são iguais
-		assertNotEquals(primeiroLancamento, segundoLancamento); //verifica se os Arrays são diferentes
+//		assertEquals(primeiroLancamento, segundoLancamento); //verifica se os Arrays são iguais
+		assertNotEquals(primeiroLancamento, segundoLancamento);
 	}
 	
 	@Test
 	void validarSeObjetoEstaNulo() {
 		
 		Pessoa pessoa = null;
-		assertNull(pessoa); //verifica se o Objeto está nulo
+		assertNull(pessoa);
 		
 		pessoa = new Pessoa("Lucas", LocalDateTime.now());
-		assertNotNull(pessoa); //verifica se o Objeto não está nulo
+		assertNotNull(pessoa);
 	}
 	
 	@Test
