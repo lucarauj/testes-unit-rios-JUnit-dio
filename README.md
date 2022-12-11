@@ -1,4 +1,4 @@
-https://github.com/lucarauj/testes-unit-rios-JUnit-dio/blob/main/LICENSE
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/testes-unit-rios-JUnit-dio/blob/main/LICENSE)
 
 <h1 align="center">
   Testes-unitarios-JUnit-dio
